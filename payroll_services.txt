@@ -41,12 +41,6 @@ mysql> select database();
 mysql> CREATE TABLE employee_payroll( id   INT unsigned NOT NULL AUTO_INCREMENT,name VARCHAR(150)NOT NULL,salary Double NOT NULL,start   DATE NOT NULL,PRIMARY KEY (id));
 Query OK, 0 rows affected (2.09 sec)
 
-##UC3
-
-
-mysql> INSERT INTO employee_payroll (name,salary,start)VALUES('Bill',100000.00,'2018-01-03'),('Mark',200000.00,'2019-11-13'),('Charlie',300000.00,'2020-05-21');
-Query OK, 3 rows affected (0.24 sec)
-Records: 3  Duplicates: 0  Warnings: 0
 
 
 
