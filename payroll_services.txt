@@ -1,5 +1,5 @@
-##UC1
-
+//UC1 :: ability to create a payroll service database
+//to show current databases
 mysql> show databases;
 +--------------------+
 | Database           |
@@ -10,7 +10,7 @@ mysql> show databases;
 | sys                |
 +--------------------+
 4 rows in set (0.01 sec)
-
+//create new database
 mysql> create database payroll_service;
 Query OK, 1 row affected (0.14 sec)
 
@@ -27,9 +27,3 @@ mysql> show databases;//show whole databases
 5 rows in set (0.08 sec)
 mysql> use payroll_service;//use database
 Database changed
-
-
-
-
-
-
